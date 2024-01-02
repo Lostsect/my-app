@@ -16,6 +16,18 @@ import Accommodate from './chapter_07/Accommodate';
 import MyButton from './chapter_08/Mybutton';
 import ConfirmButton from './chapter_08/ConfirmButton';
 import ConfirmBtn from './chapter_08/ConfirmBtn';
+import MailBox from './chapter_09/MailBox';
+import Cnt from './chapter_09/Cnt';
+import MainPage from './chapter_09/MainPage';
+import LandingPage from './chapter_09/LandingPage';
+import AttendanceBook from './chapter_10/AttendanceBook';
+import FruitSelect from './chapter_11/FruitSelect';
+import Reservation from './chapter_11/Reservation';
+import Signup from './chapter_11/SignUp';
+import Calculator from './chapter_12/Calculator';
+import TemperatureInput from './chapter_12/TemperatureInput';
+import FancyBorder from './chapter_13/FancyBorder';
+import ProfileCard from './chapter_13/ProfileCard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // setInterval(() => {
@@ -31,8 +43,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
   root.render(
     
-      <ConfirmBtn/>
-
+      <ProfileCard/>
+      
       );
       {/* 미리 만들어놨던 컴포넌트를 불러옴 */}
     

@@ -28,6 +28,10 @@ import Calculator from './chapter_12/Calculator';
 import TemperatureInput from './chapter_12/TemperatureInput';
 import FancyBorder from './chapter_13/FancyBorder';
 import ProfileCard from './chapter_13/ProfileCard';
+import CalculatorKelvin from './chapter_12/CalculatorKelvin';
+import StyledComp from './chapter_15/StyledComp';
+import SampleBtn from './chapter_15/SempleBtn';
+import Blocks from './chapter_15/Blocks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // setInterval(() => {
@@ -43,7 +47,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
   root.render(
     
-      <ProfileCard/>
+      <Blocks/>
       
       );
       {/* 미리 만들어놨던 컴포넌트를 불러옴 */}

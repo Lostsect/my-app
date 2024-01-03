@@ -19,6 +19,8 @@ class ConfirmButton extends React.Component {
     //     }));
     // }
 
+
+   // <------ 클래스 필드 문법------>
     handleConfirm = () => {
         this.setState((prevState) => ({
             //         //prevState <-- 이전의 상태(이 예제에서는 false)
